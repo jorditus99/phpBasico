@@ -70,6 +70,11 @@ $proyectos = Selectprojects($_SESSION['user_id']);
         </div>
     </div>
 
+    <!-- Botón para acceder a la API -->
+    <div class="container mt-4 text-center">
+        <a href="vistaApi.php" class="btn btn-info">Ver todos los proyectos API</a>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
